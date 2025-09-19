@@ -15,9 +15,15 @@
             <input type="text" class="form-task" placeholder="Добавить запись">
             <button class="button"></button>
         </form>
-        <ul class="task-list"></ul>
+        <ul class="task-list">
+        </ul>
     </div>
-
+    <template id="template">
+        <li class="task">
+            <input type="text" class="task__text"></input>
+            <button class="task__delete"></button>
+        </li>
+    </template>
     <script src="./script.js"></script>
 </body>
 
